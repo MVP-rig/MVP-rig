@@ -1,0 +1,35 @@
+cff-version: 1.2.0
+message: "If you use this software or our mathematical approach in your research, please cite it as below."
+authors:
+  - family-names: "Maurya"
+    given-names: "Krishnanand"
+  - family-names: "Agostino"
+    given-names: "Christopher J."
+title: "Deterministic Volumetric Auto-Rigging via Multi-View Orthographic Lifting of 2D Pose Landmarks"
+version: 1.0.0
+date-released: 2026-09-06
+description: >-
+  A deterministic, training-free pipeline that recovers a 14-joint
+  humanoid skeleton from multi-view 2D pose detections. The pipeline
+  rotates a mesh at eight viewing angles, detects landmarks with
+  MediaPipe, inverts the observations with closed-form trigonometry,
+  and anchors joints to the volumetric center via raycasting.
+keywords:
+  - auto-rigging
+  - multi-view geometry
+  - 2D pose estimation
+  - skeletal animation
+  - Cramér-Rao bound
+  - volumetric raycasting
+license: MIT
+repository-code: "https://github.com/KRISH9621/MVP-rig"
+url: "https://github.com/KRISH9621/MVP-rig"
+preferred-citation:
+  type: article
+  authors:
+    - family-names: "Maurya"
+      given-names: "Krishnanand"
+    - family-names: "Agostino"
+      given-names: "Christopher J."
+  title: "Deterministic Volumetric Auto-Rigging via Multi-View Orthographic Lifting of 2D Pose Landmarks"
+  year: 2026

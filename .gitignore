@@ -1,0 +1,58 @@
+# --- Python ---
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+alpha/
+
+# --- Java ---
+*.class
+*.jar
+*.war
+
+# --- C++ ---
+*.o
+*.out
+*.exe
+*.dll
+
+# --- OS Generated Files ---
+.DS_Store
+Thumbs.db
+__pycache__/
+*.pyc
+*.obj
+*.glb
+*.html
+
+# Add your specific files you don't want pushed:
+results/
+
+
+change.py
+calibrate_tolerance.py
+check_gt_stats.py
+check.py
+compress.py
+gt_vce.py
+pck_breakdown.py
+pck_curve.txt
+plan2.txt
+plan.txt
+rig_qa_VOIDX_ULTIMATE_DNA.html
+test_path.py
+validate_dataset.py
+vce_breakdown.py
+VOIDX_ULTIMATE_DNA.json
+worst/
+special_mesh/
+non_standard/
+figures/
+check_gt_status.py
+finish_steps.py
+apple.txt
+apple1.txt
+
+
+
+
