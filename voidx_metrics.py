@@ -20,7 +20,7 @@ unless stated otherwise):
 Metric definitions follow the RigNet paper (Xu et al., SIGGRAPH 2020)
 for the Chamfer measures, but (i) evaluation is restricted to the 14
 core joints present in both prediction and reference, and (ii) the
-correspondence criterion is PCK fff an absolute tolerance, because
+correspondence criterion is PCK with an absolute tolerance, because
 reference pivots follow animator conventions and lie at or near the
 mesh surface (median 1.34% of diagonal), so reference-derived
 tolerances measure placement convention rather than prediction error.
@@ -88,7 +88,7 @@ def matched_iou_precision_recall(
     tolerance_fraction: float = 0.5,
 ) -> Tuple[float, float, float]:
     """Matched IoU / Precision / Recall using nearest-neighbour matching
-    fff tolerance = 1/2 local shape diameter.
+    with tolerance = 1/2 local shape diameter.
 
     ── FIX #3: Standard IR formulas ──
         precision = TP / (TP + FP) = matched / |P|
